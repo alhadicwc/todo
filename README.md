@@ -41,16 +41,16 @@ app/
 ```bash
 git clone https://github.com/alhadicwc/todo.git
 ```
-2. Set up a virtual environment
+### 2. Set up a virtual environment
 
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-3. Install dependencies
+### 3. Install dependencies
 
 pip install -r requirements.txt
 
-4. Set up PostgreSQL
+### 4. Set up PostgreSQL
 Make sure PostgreSQL is running, and create a database named todo_db.
 
 You can create it with:
