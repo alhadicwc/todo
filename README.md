@@ -41,14 +41,14 @@ app/
 git clone https://github.com/alhadicwc/todo.git
 ```
 ### 2. Set up a virtual environment
-
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
+```
 ### 3. Install dependencies
-
+```bash
 pip install -r requirements.txt
-
+```
 ### 4. Set up PostgreSQL
 Make sure PostgreSQL is running, and create a database named todo_db.
 
@@ -63,9 +63,10 @@ python
 
 DATABASE_URL = "postgresql://postgres:<your_password>@localhost:5432/todo_db"
 ▶️ Run the app
-bash
+```bash
 
 uvicorn app.main:app --reload
+```
 Then open your browser and navigate to:
 
 Swagger UI: http://localhost:8000/docs
