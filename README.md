@@ -25,15 +25,14 @@ A simple and clean To-Do List API built with **FastAPI**, **SQLModel**, and **Po
 ---
 
 ## 📦 Project Structure
-
+```bash
 app/
 ├── crud.py # CRUD operations
 ├── database.py # DB engine and table creation
 ├── main.py # API routes and FastAPI app
 ├── models.py # SQLModel data model
 
-
----
+```
 
 ## 🛠️ Setup Instructions
 
